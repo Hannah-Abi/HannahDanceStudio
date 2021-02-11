@@ -1,0 +1,51 @@
+body {
+  background: white;
+  background-color: cornsilk;
+  font-family: monospace;
+  line-height: 20px;
+  margin-left: 20px;
+}
+p {
+  font-size: 14px;
+  width: 16%;
+  float:left;
+}
+
+.ballename {
+  width:70%;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 35px;
+  text-align: center;
+
+}
+
+h3 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 15px;
+}
+
+.time {
+  color: purple;
+  font-weight: 600
+}
+
+img {
+  margin-left: 15px;
+  width: 60px;
+  width: 30%
+}
+
+.subtitle {
+  width: 100%;
+  float: none;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+}

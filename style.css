@@ -1,51 +1,81 @@
 body {
-  background: white;
-  background-color: cornsilk;
-  font-family: monospace;
+  background-color: white;
   line-height: 20px;
   margin-left: 20px;
 }
-p {
-  font-size: 14px;
-  width: 16%;
-  float:left;
-}
-
-.ballename {
-  width:70%;
-}
-
-h1 {
-  font-family: monospace;
-  font-size: 35px;
+.section {
   text-align: center;
+}
+.class-1 {
+  line-height: 35px;
+  list-style: none;
+  font-size: 25px;
+  margin: 10px 100px;
+}
+.section p {
 
+  font-size: 18px;
+  line-height: 35px;
 }
 
-h3 {
+.section img {
+  width: 500px;
+  height: 330px;
+  border-radius: 20px;
+}
+
+.section h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #333;
+  font-size: 45px;
   text-align: center;
-  font-family: fantasy;
-  font-size: 15px;
 }
 
-.time {
-  color: purple;
-  font-weight: 600
+
+.header img {
+  width: 120px;
+  height: 40px;
 }
 
-img {
-  margin-left: 15px;
-  width: 60px;
-  width: 30%
+.header {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  padding: 30px 0px;
 }
 
-.subtitle {
+.nav {
+  padding-right: 100px;
+  line-height: 30px;
+}
+.nav li {
+  list-style: none;
+}
+
+.aside {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.aside .article-1 {
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.aside h6 {
+  font-size: 25px;
+}
+
+.footer {
+  top: 0;
+  left: 0;
   width: 100%;
-  float: none;
-  text-align: center;
-  padding-left: 40px;
-  padding-right: 50px;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 25px;
+  padding: 20px 100px;
+  display: -moz-grid-line;
+  justify-content: space-between;
+
+}
+
+.footer li {
+  list-style: none;
 }

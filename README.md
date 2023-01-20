@@ -1,2 +1,1 @@
-# HannahDanceStudio
-First Github Pages 
+# dancestudio
